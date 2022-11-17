@@ -1,0 +1,97 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                background: pink;
+            }
+            
+            li {
+                list-style: none;
+            }
+            
+            .hand {
+                margin: 50px;
+            }
+            
+            .card {
+                position: relative;
+                float: left;
+                margin: 100px auto;
+                width: 150px;
+                height: 220px;
+                margin-right: 10px;
+                border: 1px solid #000;
+                border-radius: 10px;
+                background: white;
+            }
+            
+            .card .suit {
+                position: absolute;
+                font-size: 11px;
+            }
+            
+            .card header ul {
+                left: 5px;
+                top: 5px;
+            }
+            
+            .card footer ul {
+                right: 5px;
+                bottom: 5px;
+                transform: rotate(180deg);
+            }
+            
+            .suitdiamonds .suit,
+            .suitdiamonds .content .origin {
+                color: red;
+            }
+            
+            .suithearts .suit,
+            .suithearts .content .origin {
+                color: red;
+            }
+            
+            .suitclubs .suit,
+            .suitclubs .content .origin {
+                color: black;
+            }
+            
+            .suitspades .suit,
+            .suitspades .content .origin {
+                color: black;
+            }
+            
+            .card .content ul {
+                position: absolute;
+                display: block;
+                top: 50%;
+                left: 50%;
+                width: 114px;
+                height: 184px;
+                margin-left: -57px;
+                margin-top: -92px;
+                padding: 4px 3px;
+                font: 9px "Microsoft YaHei";
+                border: 1.12px dotted #0e6cff;
+                border-radius: 2px;
+                box-sizing: border-box;
+            }
+            
+            .card .content .origin {
+                font-size: 10px;
+                margin-bottom: 12px;
+            }
+            
+            .card .content .analysis {
+                color: #393939;
+                font-size: 6px;
+                margin-bottom: 10px;
+            }
+            
+            .card .content .refute {
+                font-size: 8px;
+                color: #0e6cff;
+            }
