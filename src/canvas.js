@@ -89,7 +89,4 @@ function Cards(suit, value, origin, type, analysis, refute) {
     })
 }
 
-/* $.getJSON("cards.json", function(data) {
-    console.log(data);
-}) */
-// var card = new Cards();
+module.export = Cards
