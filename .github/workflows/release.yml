@@ -3,7 +3,7 @@ on:
       branches:
           - main
       name: release-please
-    jobs:
+  jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
